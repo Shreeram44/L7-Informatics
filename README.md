@@ -25,36 +25,36 @@ Before you begin, ensure you have the following installed on your machine:
 ### Step 1: Clone the repository
 Clone the project to your local machine:
  Unzip the repository
-```bash
+
 git clone https://github.com/yourusername/choco-house.git
 cd choco-house
 
-Step 2: Create and activate a virtual environment
+### Step 2: Create and activate a virtual environment
 
 It’s a good practice to use a virtual environment for Python projects:
 
 python -m venv env
 source env/bin/activate  # On Windows use env\Scripts\activate
 
-Step 3: Install dependencies
+### Step 3: Install dependencies
 
 Install the required packages from requirements.txt:
 
 pip install -r requirements.txt
 
-Step 4: Set up the database
+### Step 4: Set up the database
 
 Run the following commands to apply the migrations and set up the SQLite database:
 
 python manage.py migrate
 
-Step 5: Create a superuser (optional)
+### Step 5: Create a superuser (optional)
 
 If you want to access the admin interface:
 
 python manage.py createsuperuser
 
-Step 6: Run the development server
+### Step 6: Run the development server
 
 Start the Django development server:
 
@@ -62,9 +62,9 @@ python manage.py runserver
 
 The app will be available at http://127.0.0.1:8000/.
 
-Using Docker
+##Using Docker
 
-Step 1: Build and run the Docker container
+###Step 1: Build and run the Docker container
 
 Make sure Docker is installed and running on your system. Then, build and start the container using docker-compose:
 
@@ -72,7 +72,7 @@ docker-compose up --build
 
 This will run the app inside a Docker container, exposing it at http://localhost:8000/.
 
-Step 2: Stopping the containers
+###Step 2: Stopping the containers
 
 To stop the running Docker containers:
 
