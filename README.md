@@ -62,9 +62,9 @@ python manage.py runserver
 
 The app will be available at http://127.0.0.1:8000/.
 
-##Using Docker
+## Using Docker
 
-###Step 1: Build and run the Docker container
+### Step 1: Build and run the Docker container
 
 Make sure Docker is installed and running on your system. Then, build and start the container using docker-compose:
 
@@ -72,7 +72,7 @@ docker-compose up --build
 
 This will run the app inside a Docker container, exposing it at http://localhost:8000/.
 
-###Step 2: Stopping the containers
+### Step 2: Stopping the containers
 
 To stop the running Docker containers:
 
