@@ -1,5 +1,10 @@
 # Choco House Application
 
+## Problem Statement
+Create a Simple Python Application for a fictional chocolate house that uses SQLite to manage,
+Seasonal flavor offerings 
+Ingredient inventory
+Customer flavor suggestions and allergy concerns
 
 
 ## Overview
