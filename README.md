@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed on your machine:
 ### Step 1: Clone the repository
 Clone the project to your local machine:
 ```bash
-git clone https://github.com/yourusername/choco-house.git
+git clone https://github.com/Shreeram44/L7-Informatics.git
 cd choco-house
 ```
 
