@@ -148,7 +148,7 @@ docker-compose down
 
 
 
-Project Structure
+## Project Structure
 
 choco_house/
 │
@@ -169,6 +169,7 @@ choco_house/
 ├── docker-compose.yml          # Docker Compose for multi-container setup
 ├── requirements.txt           # List of dependencies
 └── README.md                  # This file
+
 
 Additional Notes
 
